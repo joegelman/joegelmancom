@@ -35,7 +35,20 @@
 
 <ul>
     <li class="social-links"><a href="https://www.linkedin.com/in/josephgelman">Check out my LinkedIn</a></li>
-    <li class="social-links"><a href="mailto:joe@atreo.com?subject=Sign%20me%20up%20for%20your%20list!&body=Send%20me%20occasional%20copywriting/marketing%20tips%20and%20tricks.">Join my mailing list</a></li>
+    <!--<li class="social-links"><a href="mailto:joe@atreo.com?subject=Sign%20me%20up%20for%20your%20list!&body=Send%20me%20occasional%20copywriting/marketing%20tips%20and%20tricks.">Join my mailing list</a></li>-->
+    <li class="social-links-alt"><form
+        action="https://buttondown.email/api/emails/embed-subscribe/joegelman"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/joegelman', 'popupwindow')"
+        class="sign-up-form"
+        
+        >
+        <label for="bd-email"></label>
+        <input type="email" name="email" id="bd-email" placeholder="Sign up for my newsletter*" required class="placeholder-email" />
+        <input type="submit" value="Subscribe" class="subscribe-button"/>
+    </form><small class="newsletter-disclaimer">*It's called "The Message", it's still in the works, and it's not spam (promise!)</small></li>
+    
 </ul>
 
     
