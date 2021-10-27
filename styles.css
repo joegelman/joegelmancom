@@ -399,6 +399,14 @@ span {
     margin-left: 2em;
 }
 
+.blog-article a {
+    text-decoration: underline dotted .2px;
+}
+
+.blog-article a:hover {
+    text-decoration: underline;
+}
+
 
 
 
